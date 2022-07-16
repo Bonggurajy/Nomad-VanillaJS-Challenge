@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="introWrapper" class="intro-wrapper">
+    <span>Hello, what's your name?</span>
+    <form id="loginForm" class="login-form">
+      <input required id="loginInput" type="text" />
+    </form>
+  </div>
+  <div id="greeting" class="greeting-text"></div>
+
+  <div id="todoListsWrapper" class="todo-lists__wrapper hidden">
+    <div class="todo-lists__title">To do List</div>
+    <div class="todo-lists__contents">
+      <ul id="toDoListContainer">
+      </ul>
+    </div>
+  </div>
+  <form id="toDoForm">
+    <input id="toDoInput" required type="text" placeholder="write your plan." />
+  </form>
+  <script src="js/login.js"></script>
+  <script src="js/todo.js"></script>
+</body>
+
+</html>

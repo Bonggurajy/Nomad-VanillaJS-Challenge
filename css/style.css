@@ -15,7 +15,7 @@ body {
 
 body img {
   position: fixed;
-  z-index: -1;
+  z-index: -99;
   width: 100vw;
   height: 100vh;
 }
@@ -24,6 +24,24 @@ body img {
   font-size: 120px;
   font-weight: 600;
   color: black;
+}
+
+.quotes__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 40px;
+  color: gray;
+}
+
+.quote {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 20px;
 }
 
 /*hidden*/

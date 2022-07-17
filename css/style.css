@@ -35,6 +35,11 @@ body {
   font-size: 20px;
   box-sizing: border-box;
   padding: 0px 15px;
+  overflow-y: scroll;
+}
+
+.todo-lists__contents::-webkit-scrollbar {
+  display: none;
 }
 
 .toDoListContainer {

@@ -5,6 +5,7 @@ const $greeting = document.querySelector('#greeting');
 const $introWrapper = document.querySelector('#introWrapper');
 const $todoListsWrapper = document.querySelector('#todoListsWrapper');
 
+
 //Functions
 
 function onLoginFormSubmit (event) {
@@ -18,6 +19,7 @@ function paintGreeting (username) {
   $greeting.innerText = `Welcome, ${username}`;
   $introWrapper.classList.add('hidden');
   $todoListsWrapper.classList.remove('hidden');
+
 }
 
 const savedUsername = localStorage.getItem('username');

@@ -60,6 +60,30 @@ body {
   transform: rotateZ(180deg);
 }
 
+.todo-form {
+  width: 90%;
+}
+
+.todo-form input {
+  all: unset;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-form input:hover {
+  border-bottom: 1px solid black;
+}
+
+.todo-form input:focus {
+  border: 1px solid black;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px 1px black;
+}
+
 /*hidden*/
 .hidden {
   display: none;

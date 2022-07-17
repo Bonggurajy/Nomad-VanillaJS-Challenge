@@ -9,17 +9,21 @@ body {
 
 
 .greeting-text {
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 60px;
+  margin: 50px 0px;
 }
-
-
 
 body img {
   position: fixed;
   z-index: -1;
   width: 100vw;
   height: 100vh;
+}
+
+.clock {
+  font-size: 120px;
+  font-weight: 600;
+  color: black;
 }
 
 /*hidden*/

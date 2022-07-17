@@ -44,6 +44,25 @@ body img {
   font-size: 20px;
 }
 
+.weather__container {
+  width: 140px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 30px;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-info span:first-child {
+  margin-bottom: 10px;
+}
+
 /*hidden*/
 .hidden {
   display: none;
